@@ -1,0 +1,5 @@
+<apex:page standardController="student__c">
+    <h1>Student Information</h1>
+    <p><b>Name:</b> {!student__c.Name}</p>
+    <p><b>Course:</b> {!student__c.Course__c}</p>
+</apex:page>
